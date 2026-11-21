@@ -5,3 +5,14 @@ dist
 coverage
 *.local
 .DS_Store
+
+# Env / logs / editor
+.env
+.env.*
+!.env.example
+*.log
+npm-debug.log*
+.vscode/*
+!.vscode/extensions.json
+.idea
+Thumbs.db
